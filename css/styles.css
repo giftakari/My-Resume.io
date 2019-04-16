@@ -19,6 +19,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
+  
 }
 h1, h2 {
   font-family: 'Caveat', cursive;
@@ -35,7 +36,7 @@ h3 {
   margin: 0;
 }
 a {
-  color:#99738E/* #EF233C*/;
+  color: #EF233C/* #99738E *//* #EF233C*/;
 }
 a:hover {
   text-decoration: none;
@@ -71,7 +72,7 @@ header h1, header h2 {
   margin: 0;
 }
 .profile-img {
-  border-radius: 50%;
+  border-radius: 48%;
 }
 .download {
   position: absolute;
@@ -102,7 +103,7 @@ nav {
   /*z-index: 100;*/
 }
 nav a {
-  display: inline-block;
+  display: inline-block; 
   padding: 15px 20px;
   text-decoration: none;
   text-transform: uppercase;
@@ -129,14 +130,37 @@ h3 ~ p {
 /* Education
 -------------------------*/
 .education {
-  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
-              url(../images/toronto.jpg) no-repeat fixed;
+  
+  
+background: 
+    linear-gradient(rgba(140, 100, 240, 0.2), rgba(140, 100, 240, 0.2)), 
+              url(../images/Gift-Resume-Photo.jpg) no-repeat fixed;
   background-size: cover;
 }
 p + h3 {
   margin-top: 30px;
 }
 
+section.education{
+  color:  #FFF; 
+text-shadow:0px 1px 1px #3a5606;
+}
+
+/**** Type Effect **/ 
+.txt-type > .txt{
+  font-family: 'Caveat', cursive;
+font-weight: 400;
+  border-right:0.2rem solid #777;
+}
+a.project{
+  background-color: #EF233C;
+  border-radius: 1em 2em;
+  color:#FFF;
+margin-top: .3em;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-shadow: 0px 2px 2px #3a5606;
+}
 
 
 /* Media Queries
@@ -152,6 +176,9 @@ p + h3 {
     padding-left: 20px;
   }
 }
+
+
+
 @media (max-width: 899px){
   header {
     text-align: center;
