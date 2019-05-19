@@ -136,7 +136,7 @@ h3 ~ p {
   
   
 background: 
-    linear-gradient(rgba(140, 100, 240, 0.2), rgba(140, 100, 240, 0.2)), 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
               url(../images/Gift-Resume-Photo.jpg) no-repeat fixed;
   background-size: cover;
 }
