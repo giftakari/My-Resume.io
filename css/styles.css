@@ -24,6 +24,21 @@ body {
 h1, h2 {
   font-family: 'Caveat', cursive;
   font-weight: 400;
+  
+}
+h1 {
+  font-size: 5rem;
+  
+
+ 
+
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+h1, div.col-wide:nth-child(2) > h2:nth-child(2){
   text-shadow: 0 0.0625rem 0 #ccc,
                0 0.125rem 0 #c9c9c9,
                0 1875rem 0 #bbb,
@@ -38,15 +53,7 @@ h1, h2 {
                0 1.25rem 1.25rem rgba(0,0,0,.15);
 
 }
-h1 {
-  font-size: 5rem;
- 
 
-}
-h2 {
-  font-size: 2.5rem;
-  margin-top: 0;
-}
 h3 {
   margin: 0;
 }
